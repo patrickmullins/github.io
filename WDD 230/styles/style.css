@@ -26,19 +26,3 @@ p {
     line-height: 1.5em;
     text-align: center;
     }
-
-.main ul {
-        margin: 0;
-      }
-.main ul li a {
-        font-family: 'Rubik', sans-serif;
-        list-style-type: none;
-        display: inline-block;
-        padding-left: 150px;
-        font-size: 1.35em;
-      }
-.main ul li:hover {
-      background-color: grey;
-       border-radius: 2px;
-       box-shadow: 2px 2px 2px black;
-      }
