@@ -1,44 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Hind|Playfair+Display|Rubik&display=swap');
+
+body { 
+  font-size: 16px; 
+  line-height: 32px;
+  font-family: helvetica, arial, sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 2em;
+  color: ghostwhite;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+  margin: 1.25rem auto;
+  padding: .5rem;
+  max-width: 50em;
+}
+
+header, footer, footer a {
+  text-align: center;
+  background-color: rgb(46, 139, 127);
+  color: whitesmoke;
+}
 
 header img {
   width: 175px;
   height: auto;
   float: right;
 }
-header, main, footer {
-  margin: 1.25rem auto;
-  padding: .5rem;
-  max-width: 50em;
-}
-header, footer, footer a {
-  text-align: center;
-  background-color: rgb(49, 114, 89);
-  color: whitesmoke;
-}
-h1 {
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    font-family: 'Barlow', sans-serif;
-    font-size: 2em;
-    line-height: 1.1em;
-    font-weight: bold;
-  }
-h2, h3, h4, h5, h6 {
-    padding: 1.5em;
-    color: black;
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    font-size: 2.25em;
-    line-height: 1.1em;
-    font-weight: bold;
-  }
-  body { 
-    font-size: 16px; 
-    line-height: 32px;
-    font-family: Rubik, arial, sans-serif;
-    color: black;
-}
+
 footer {
   font-size: 1em;
 }
