@@ -1,28 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Hind|Playfair+Display|Rubik&display=swap');
 
+header img {
+  width: 175px;
+  height: auto;
+  float: right;
+}
+header, main, footer {
+  margin: 1.25rem auto;
+  padding: .5rem;
+  max-width: 50em;
+}
+header, footer, footer a {
+  text-align: center;
+  background-color: rgb(49, 114, 89);
+  color: whitesmoke;
+}
 h1 {
     text-align: center;
     padding: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Barlow', sans-serif;
-    font-size: 2.25em;
+    font-size: 2em;
     line-height: 1.1em;
     font-weight: bold;
   }
 h2, h3, h4, h5, h6 {
-    padding: 10px;
+    padding: 1.5em;
     color: black;
+    text-align: center;
     font-family: 'Barlow', sans-serif;
     font-size: 2.25em;
     line-height: 1.1em;
     font-weight: bold;
   }
-
-p {
-    padding: 10px;
-    color: #ff0e06;
-    font-family: "EB Garamond", Georgia, serif;
-    font-size: 1.35em;
-    line-height: 1.5em;
-    text-align: center;
-    }
+  body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Rubik, arial, sans-serif;
+    color: black;
+}
+footer {
+  font-size: 1em;
+}
