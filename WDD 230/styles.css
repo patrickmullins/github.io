@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.25em;
+    line-height: 1.1em;
+    font-weight: bold;
+  }
+  h2, h3, h4, h5, h6 {
+    padding: 10px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.25em;
+    line-height: 1.1em;
+    font-weight: bold;
+  }
+  
+  p {
+    padding: 10px;
+    color: #1F7A8C;
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    text-align: center;
+    }
