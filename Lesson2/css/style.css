@@ -1,0 +1,74 @@
+
+body { 
+  font-size: 16px; 
+  line-height: 32px;
+  font-family: helvetica, arial, sans-serif;
+  color: black;
+}
+.leftcol, .rightcol {
+  max-width: 48%;
+  flex: 1 0 15em;
+  padding: 10px;
+}
+p {
+  padding: 10px;
+  color: #000000;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 1.35em;
+  line-height: 1.5em;
+  text-align: left;
+  }
+  .foot{
+    color:white;
+  }
+.midcol {
+  max-width: 48%;
+  flex: 1 0 15em;
+  padding: 10px;
+}
+.sec1{
+  text-align: left;
+}
+h1 {
+  font-size: 2em;
+  color: ghostwhite;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+  margin: 1.25rem auto;
+  padding: .5rem;
+  max-width: 50em;
+}
+
+header, footer, footer a {
+  text-align: center;
+  background-color: rgb(46, 139, 127);
+  color: whitesmoke;
+}
+
+header img {
+  width: 175px;
+  height: auto;
+  float: right;
+}
+.ex1, .ex2, .ex3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+   }
+
+.p-left-img, .p-mid-img, .p-right-img {
+   width: 33.3%;
+  height: 33.3%;
+  border-radius: 5px;
+   box-shadow: 5px 5px 5px black;
+    }
+        
