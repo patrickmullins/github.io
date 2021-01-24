@@ -59,7 +59,6 @@ header img {
 }
 .ex1, .ex2, .ex3{
   display: grid;
-  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding: 10px;
