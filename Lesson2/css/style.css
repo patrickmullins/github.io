@@ -57,6 +57,11 @@ header img {
   height: auto;
   float: right;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+   padding: 10px;
+}
 .ex1, .ex2, .ex3{
   display: grid;
   justify-content: center;
