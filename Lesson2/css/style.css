@@ -64,6 +64,7 @@ header img {
 }
 .ex1, .ex2, .ex3{
   display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
   padding: 10px;
